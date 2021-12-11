@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- start btn box -->
+    <div class="start_box">
+        <button type="button" class="start_btn">Start Quize</button>
+    </div>
+
+    <!-- instruction box -->
+    <div class="instru_box">
+        <div class="instru_title">
+            <span>Instruction</span>
+        </div>
+        <div class="instru_list">
+            <!-- <span>Welc</span> -->
+            <ul>
+                <li>You have only <strong>15 seconds</strong> to solve each quetion</li>
+                <li>Once selected option <strong>can't edit</strong></li>
+                <li>Each quetion give you <strong>10 points</strong> </li>
+                <li>click on below <strong>continue</strong> button to start quize. </li>
+            </ul>
+        </div>
+        <div class="instru_btns">
+            <button class="instru_btn back">Back</button>
+            <button class="instru_btn continue">Continue</button>
+        </div>
+    </div>
+
+    <div class="quetion_box">
+        <div class="quetion_head">
+            <div class="quetion_title">
+                <span>Quiz Game</span>
+            </div>
+            <div class="timer">
+                <div class="time">15</div>
+            </div>
+        </div>
+        <div class="quetion_main">
+            <div class="quetion">
+                <span class="quetion_num">1</span>
+                <span class="quetion_txt">What is your name ?</span>
+            </div>
+            <div class="options">
+                <!-- <div class="option">
+                    <span>Shubham</span>
+                </div>
+                <div class="option">
+                    <span>Ram</span>
+                </div>
+                <div class="option">
+                    <span>Sheena</span>
+                </div>
+                <div class="option">
+                    <span>Sham</span>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="quetion_foot">
+            <div class="quetion_info">
+                <span>
+                    <span class="quetion_number">2</span> of
+                    <span class="total_quetion">5</span>
+                </span>
+            </div>
+            <div class="quetion_next">
+                <button class="next" >Next</button>
+                <button class="submit">Submit</button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-trophy"></i>
+        </div>
+        <div class="score">
+            <span>
+                Your Score is <span class="score_num">00</span>
+            </span>
+        </div>
+        <div class="summary">
+            <div class="summ_res">
+                <span>Total Quetions</span>
+                <span class="totl_quetions">00</span>
+            </div>
+            <div class="summ_res">
+                <span>Correct Answers</span>
+                <span class="corr_ans">00</span>
+            </div>
+            <div class="summ_res">
+                <span>Wrong Answers</span>
+                <span class="wrong_ans">00</span>
+            </div>
+        </div>
+        <div class="result_btn">
+            <button class="replay">Restart</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="quetions.js"></script>
+</body>
+</html>
